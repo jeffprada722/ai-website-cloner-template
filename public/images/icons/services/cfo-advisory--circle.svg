@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .bf144cf5-dfc8-4ace-a180-8b6fe1c0db6b {
+        fill: #fee1cd;
+      }
+
+      .ead8e1ba-c8b2-4c85-bdd5-90385d9774a0 {
+        fill: #fda261;
+      }
+
+      .bc2b02bf-d404-4e2c-8fe3-edd428448215 {
+        fill: #fc6a03;
+      }
+    </style>
+  </defs>
+  
+  <circle class="bf144cf5-dfc8-4ace-a180-8b6fe1c0db6b" cx="50" cy="50" r="50"/>
+  <rect class="ead8e1ba-c8b2-4c85-bdd5-90385d9774a0" x="25" y="50" width="15" height="25" rx="2.5117"/>
+  <rect class="bc2b02bf-d404-4e2c-8fe3-edd428448215" x="60" y="25" width="15" height="50" rx="2.5117"/>
+  <rect class="ead8e1ba-c8b2-4c85-bdd5-90385d9774a0" x="42.5117" y="37.5117" width="15" height="37.5117" rx="2.5117"/>
+</svg>
