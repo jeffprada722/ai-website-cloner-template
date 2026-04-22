@@ -13,10 +13,10 @@ export function HeroSection() {
       strings: [
         "Growing Businesses.",
         "Small Businesses.",
-        "Service Companies.",
-        "Technology Companies.",
-        "eCommerce Businesses.",
         "Real Estate Companies.",
+        "Restaurants & Hospitality.",
+        "Construction Companies.",
+        "Healthcare Practices.",
         "Entrepreneurs.",
       ],
       typeSpeed: 50,
@@ -37,30 +37,30 @@ export function HeroSection() {
           {/* Left Column */}
           <div className="max-w-[600px] flex-1">
             <h1
-              className="font-montserrat text-[28px] font-[800] leading-[1.2] text-[#3C416E] md:text-[42px] md:leading-[50.4px]"
+              className="font-montserrat text-[28px] font-[800] leading-[1.2] text-[#2B2C30] md:text-[42px] md:leading-[50.4px]"
             >
               The best bookkeeping services and accounting solutions for{" "}
               <br />
-              <span ref={typedRef} className="text-[#FC6A03]" />
+              <span ref={typedRef} className="text-[#38BDF8]" />
             </h1>
 
             <p
-              className="mt-[18px] font-montserrat text-[16px] font-normal leading-[26px] text-[#8178B0] md:text-[18px] md:leading-[28.8px]"
+              className="mt-[18px] font-montserrat text-[16px] font-normal leading-[26px] text-[#64748B] md:text-[18px] md:leading-[28.8px]"
             >
-              Running a business is hard, your finances shouldn&apos;t be. Since
-              2012, we&apos;ve delivered expert bookkeeping services, tax, and
-              fractional CFO support to help businesses thrive.
+              Running a business is hard, your finances shouldn&apos;t be. We
+              deliver expert bookkeeping services, tax preparation, and
+              accounting consulting to help your business thrive in Miami and across Florida.
             </p>
 
             <a
               href="#"
-              className="mt-[27px] inline-block rounded-lg bg-[#FC6A03] px-[27px] py-[21px] text-[18px] font-semibold text-white shadow-[0px_5px_10px_-2px_rgba(50,50,93,0.26),0px_3px_6px_-3px_rgba(0,0,0,0.3)] transition-all duration-200 hover:translate-y-[-1px] hover:brightness-110"
+              className="mt-[27px] inline-block rounded-lg bg-[#38BDF8] px-[27px] py-[21px] text-[18px] font-semibold text-white shadow-[0px_5px_10px_-2px_rgba(50,50,93,0.26),0px_3px_6px_-3px_rgba(0,0,0,0.3)] transition-all duration-200 hover:translate-y-[-1px] hover:brightness-110"
             >
               Free Consultation
             </a>
 
             <div className="mt-6">
-              <p className="font-montserrat text-[14px] font-normal text-[#8178B0]">
+              <p className="font-montserrat text-[14px] font-normal text-[#64748B]">
                 Independently ranked by
               </p>
               <div className="mt-2 flex items-center gap-4">
@@ -76,9 +76,9 @@ export function HeroSection() {
               </div>
             </div>
 
-            <p className="mt-4 font-montserrat text-[14px] font-normal text-[#8178B0]">
+            <p className="mt-4 font-montserrat text-[14px] font-normal text-[#64748B]">
               See{" "}
-              <a href="#" className="text-[#2697D4] underline">
+              <a href="#" className="text-[#4A5E7A] underline">
                 where else we&apos;ve been featured
               </a>
               .
@@ -98,7 +98,7 @@ export function HeroSection() {
 
             {/* Large 360 text */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="select-none font-montserrat text-[120px] font-[800] text-[#2697D4] opacity-30">
+              <span className="select-none font-montserrat text-[120px] font-[800] text-[#4A5E7A] opacity-30">
                 360
               </span>
             </div>
@@ -106,7 +106,7 @@ export function HeroSection() {
             {/* Floating card: Advisor */}
             <div className="absolute left-2 top-6 rounded-xl bg-white p-3 shadow-lg">
               <p className="text-[11px] font-medium text-gray-400">Advisor</p>
-              <p className="text-[13px] font-semibold text-[#3C416E]">
+              <p className="text-[13px] font-semibold text-[#2B2C30]">
                 Sarah M.
               </p>
               <p className="text-[11px] text-gray-400">CFO Specialist</p>
@@ -117,7 +117,7 @@ export function HeroSection() {
               <p className="text-[11px] font-medium text-gray-400">
                 Next Availability
               </p>
-              <p className="text-[13px] font-semibold text-[#3C416E]">
+              <p className="text-[13px] font-semibold text-[#2B2C30]">
                 Today, 2:00 PM
               </p>
             </div>
@@ -127,7 +127,7 @@ export function HeroSection() {
               <p className="text-[11px] font-medium text-green-500">
                 Payroll Processed
               </p>
-              <p className="text-[13px] font-semibold text-[#3C416E]">
+              <p className="text-[13px] font-semibold text-[#2B2C30]">
                 $24,500.00
               </p>
               <p className="text-[11px] text-gray-400">12 employees</p>
@@ -139,11 +139,11 @@ export function HeroSection() {
                 Business Performance
               </p>
               <div className="mt-1 flex items-end gap-1">
-                <div className="h-4 w-2 rounded-sm bg-[#2697D4] opacity-40" />
-                <div className="h-6 w-2 rounded-sm bg-[#2697D4] opacity-60" />
-                <div className="h-8 w-2 rounded-sm bg-[#2697D4] opacity-80" />
-                <div className="h-10 w-2 rounded-sm bg-[#2697D4]" />
-                <div className="h-7 w-2 rounded-sm bg-[#2697D4] opacity-70" />
+                <div className="h-4 w-2 rounded-sm bg-[#4A5E7A] opacity-40" />
+                <div className="h-6 w-2 rounded-sm bg-[#4A5E7A] opacity-60" />
+                <div className="h-8 w-2 rounded-sm bg-[#4A5E7A] opacity-80" />
+                <div className="h-10 w-2 rounded-sm bg-[#4A5E7A]" />
+                <div className="h-7 w-2 rounded-sm bg-[#4A5E7A] opacity-70" />
               </div>
             </div>
 
@@ -152,7 +152,7 @@ export function HeroSection() {
               <p className="text-[11px] font-medium text-green-500">
                 Taxes Filed
               </p>
-              <p className="text-[13px] font-semibold text-[#3C416E]">
+              <p className="text-[13px] font-semibold text-[#2B2C30]">
                 Q4 2024
               </p>
               <p className="text-[11px] text-gray-400">On time</p>

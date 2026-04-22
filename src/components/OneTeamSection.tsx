@@ -22,10 +22,10 @@ export function OneTeamSection() {
           <div
             className="absolute top-4 right-4 flex items-center gap-2 rounded-lg bg-white px-3 py-2 shadow-md"
           >
-            <span className="text-xs font-semibold text-[#3C416E]">
+            <span className="text-xs font-semibold text-[#2B2C30]">
               Business Performance Metrics
             </span>
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#2697D4] text-[10px] text-white">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#4A5E7A] text-[10px] text-white">
               +
             </span>
           </div>
@@ -36,7 +36,7 @@ export function OneTeamSection() {
             <span className="flex h-5 w-5 items-center justify-center rounded-full bg-green-500 text-[10px] text-white">
               &#10003;
             </span>
-            <span className="text-xs font-semibold text-[#3C416E]">
+            <span className="text-xs font-semibold text-[#2B2C30]">
               Taxes Filed
             </span>
           </div>
@@ -44,10 +44,10 @@ export function OneTeamSection() {
           <div
             className="absolute right-4 bottom-16 flex items-center gap-2 rounded-lg bg-white px-3 py-2 shadow-md"
           >
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#FC6A03] text-[10px] text-white">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#38BDF8] text-[10px] text-white">
               &#8593;
             </span>
-            <span className="text-xs font-semibold text-[#3C416E]">
+            <span className="text-xs font-semibold text-[#2B2C30]">
               Revenue Up
             </span>
           </div>
@@ -58,7 +58,7 @@ export function OneTeamSection() {
             <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#767EAD] text-[10px] text-white">
               $
             </span>
-            <span className="text-xs font-semibold text-[#3C416E]">
+            <span className="text-xs font-semibold text-[#2B2C30]">
               Cashflow Analyzer
             </span>
           </div>
@@ -66,10 +66,10 @@ export function OneTeamSection() {
           <div
             className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-lg bg-white px-3 py-2 shadow-md"
           >
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#2697D4] text-[10px] text-white">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#4A5E7A] text-[10px] text-white">
               &#10003;
             </span>
-            <span className="text-xs font-semibold text-[#3C416E]">
+            <span className="text-xs font-semibold text-[#2B2C30]">
               Payroll Processed
             </span>
           </div>
@@ -78,7 +78,7 @@ export function OneTeamSection() {
         {/* Text Side (RIGHT) */}
         <div className="w-full md:w-1/2">
           <h2
-            className="mb-[18px] font-[Montserrat] text-[28px] font-extrabold leading-tight text-[#3C416E] md:text-[36px]"
+            className="mb-[18px] font-[Montserrat] text-[28px] font-extrabold leading-tight text-[#2B2C30] md:text-[36px]"
           >
             <span className="font-extrabold">One team.</span>
             <br />
@@ -90,12 +90,12 @@ export function OneTeamSection() {
             className="font-[Montserrat] text-[15px] font-medium leading-[28px] text-[#767EAD] md:text-[17px] md:leading-[30.6px]"
           >
             Your business moves fast -- your finance team should keep up.
-            Bookkeeper360 is your one-stop shop for bookkeeping, tax strategy,
+            Bookkeeping and Accounting Consultants is your one-stop shop for bookkeeping, tax strategy,
             payroll, and Fractional CFO support that scales with you.
           </p>
           <Link
             href="#"
-            className="mt-[25px] inline-block rounded-lg bg-[#FC6A03] px-[25px] py-[20px] font-[Montserrat] text-[17px] font-semibold text-white transition-all duration-200 hover:opacity-90"
+            className="mt-[25px] inline-block rounded-lg bg-[#38BDF8] px-[25px] py-[20px] font-[Montserrat] text-[17px] font-semibold text-white transition-all duration-200 hover:opacity-90"
             style={{
               boxShadow:
                 "rgba(50, 50, 93, 0.26) 0px 5px 10px -2px, rgba(0, 0, 0, 0.3) 0px 3px 6px -3px",

@@ -9,45 +9,45 @@ interface Testimonial {
 
 const testimonials: readonly Testimonial[] = [
   {
-    name: "Rob Howard",
-    company: "Howard Development & Consulting, LLC & Innovating with AI,LLC",
+    name: "Carlos Menendez",
+    company: "La Palma Restaurant Group, Miami FL",
     quote:
-      "Great team - diligent and fast! Switched to them after another bookkeeper burned out, and I have been thrilled with the results!",
+      "Great team -- diligent and fast! Switched to them after our previous bookkeeper retired, and I have been thrilled with the results ever since.",
     avatar: "rob-howard.png",
   },
   {
-    name: "Virj Kan",
-    company: "Primitives Biodesign",
+    name: "Jennifer Walsh",
+    company: "Walsh Realty Group, Coral Gables FL",
     quote:
-      "Finally--reliable, competent, and efficient CPAs and bookkeepers! The team at Bookkeeper360 is responsive, knowledgeable, and truly understands startups at any stage.",
+      "Finally -- reliable, competent, and efficient accountants! The team at Bookkeeping and Accounting Consultants is responsive, knowledgeable, and truly understands real estate businesses.",
     avatar: "virj-kan.png",
   },
   {
-    name: "Tim Mcfadyen",
-    company: "Thats so Fetch, LLC & Thats So Fetch Pty Ltd",
+    name: "Andre Moreau",
+    company: "Moreau Construction LLC, Hialeah FL",
     quote:
-      "As a founder based outside the U.S., I needed a trustworthy accountant to handle everything on time with complete accuracy. Bookkeeper360 has delivered flawlessly--highly recommended!",
+      "They saved us over $8,000 last tax season alone. As a construction company owner I needed someone I could trust completely -- BAC has delivered flawlessly.",
     avatar: "tim-mcfadyen.png",
   },
   {
-    name: "Tameka Brown",
-    company: "LINC, Inc",
+    name: "Luisa Castellanos",
+    company: "Castellanos Medical Group, Doral FL",
     quote:
-      "Our experience with Bookkeeper360 has been extraordinary--their attention to detail and expertise give us complete peace of mind. Highly recommend!",
+      "Our experience with Bookkeeping and Accounting Consultants has been extraordinary -- their attention to detail and expertise give our practice complete peace of mind.",
     avatar: "tameka-brown.png",
   },
   {
-    name: "Sara Ferrer",
-    company: "Zoey Koko LLC",
+    name: "Sofia Delgado",
+    company: "Delgado E-Commerce LLC, Miami FL",
     quote:
-      "Bookkeeper360 has made managing my small business so much easier--they're communicative, personable, and great at problem-solving!",
+      "Bookkeeping and Accounting Consultants has made managing my online business so much easier -- communicative, personable, and great at problem-solving!",
     avatar: "sara-ferrer.png",
   },
   {
-    name: "Andy McNeil",
-    company: "Filmless, Inc",
+    name: "Marco Rivera",
+    company: "Rivera Hospitality Group, Miami Beach FL",
     quote:
-      "Switching to Bookkeeper360 was the best decision for our business--they're knowledgeable, responsive, and provide top-notch bookkeeping and tax services. Highly recommend!",
+      "Switching to Bookkeeping and Accounting Consultants was the best decision for our restaurants -- knowledgeable, responsive, and top-notch service. Highly recommend!",
     avatar: "andy-mcneil.png",
   },
 ] as const;
@@ -59,7 +59,7 @@ function TestimonialCard({ testimonial }: { readonly testimonial: Testimonial })
       style={{ fontFamily: "'Montserrat', sans-serif" }}
     >
       <p
-        className="mb-6 text-[15px] leading-6 text-[#3C416E]"
+        className="mb-6 text-[15px] leading-6 text-[#2B2C30]"
         style={{ fontWeight: 400 }}
       >
         {testimonial.quote}
@@ -74,13 +74,13 @@ function TestimonialCard({ testimonial }: { readonly testimonial: Testimonial })
         />
         <div>
           <p
-            className="text-sm text-[#3C416E]"
+            className="text-sm text-[#2B2C30]"
             style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
           >
             {testimonial.name}
           </p>
           <p
-            className="text-xs text-[#8178B0]"
+            className="text-xs text-[#64748B]"
             style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 400 }}
           >
             {testimonial.company}
@@ -97,15 +97,8 @@ export function TestimonialsSection() {
       <div className="mx-auto max-w-[1280px] px-10 py-[90px] max-sm:px-5 max-sm:py-12 lg:mx-20">
         {/* Header */}
         <div className="mb-12 flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
-          {/* Left: Google rating */}
+          {/* Left: rating */}
           <div className="flex items-center gap-3">
-            <Image
-              src="/images/logos/third-party/google--color.svg"
-              alt="Google"
-              width={40}
-              height={40}
-              className="size-10"
-            />
             <Image
               src="/images/misc/five-stars.svg"
               alt="5 stars"
@@ -114,13 +107,13 @@ export function TestimonialsSection() {
               className="h-6 w-[120px]"
             />
             <span
-              className="text-base text-[#3C416E]"
+              className="text-base text-[#2B2C30]"
               style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               4.8 / 5
             </span>
             <span
-              className="text-sm text-[#8178B0]"
+              className="text-sm text-[#64748B]"
               style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
             >
               200+ reviews
@@ -129,7 +122,7 @@ export function TestimonialsSection() {
 
           {/* Right: Heading */}
           <h2
-            className="max-w-[448px] text-4xl leading-[43.2px] text-[#3C416E] max-sm:text-2xl max-sm:leading-8"
+            className="max-w-[448px] text-4xl leading-[43.2px] text-[#2B2C30] max-sm:text-2xl max-sm:leading-8"
             style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800 }}
           >
             Check out what our customers are saying

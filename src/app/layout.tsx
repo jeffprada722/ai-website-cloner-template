@@ -20,13 +20,13 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bookkeeper360: Business Bookkeepers & Bookkeeping Services",
+  title: "Bookkeeping and Accounting Consultants: Business Bookkeepers & Bookkeeping Services",
   description:
-    "Bookkeeper360 offers expert bookkeeping services for QuickBooks and Xero, providing bookkeeping, accounting, and advisory solutions for small to medium-sized businesses.",
+    "Bookkeeping and Accounting Consultants offers expert bookkeeping services for QuickBooks and Xero, providing bookkeeping, accounting, and advisory solutions for small to medium-sized businesses.",
   openGraph: {
-    title: "Bookkeeper360: Business Bookkeepers & Bookkeeping Services",
+    title: "Bookkeeping and Accounting Consultants: Business Bookkeepers & Bookkeeping Services",
     description:
-      "Bookkeeper360 offers expert bookkeeping services for QuickBooks and Xero, providing bookkeeping, accounting, and advisory solutions for small to medium-sized businesses.",
+      "Bookkeeping and Accounting Consultants offers expert bookkeeping services for QuickBooks and Xero, providing bookkeeping, accounting, and advisory solutions for small to medium-sized businesses.",
   },
   icons: {
     icon: "/seo/favicon.ico",

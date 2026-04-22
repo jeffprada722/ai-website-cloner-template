@@ -29,7 +29,7 @@ export function Navbar() {
         <a href="/" className="shrink-0">
           <Image
             src="/images/logos/bk360-cloud.svg"
-            alt="Bookkeeper360 logo icon"
+            alt="Bookkeeping and Accounting Consultants logo icon"
             width={160}
             height={40}
             className="h-10 w-auto"
@@ -50,7 +50,7 @@ export function Navbar() {
               style={{
                 fontWeight: 600,
                 fontSize: "14px",
-                color: "#3C416E",
+                color: "#2B2C30",
               }}
             >
               {link.label}
@@ -71,7 +71,7 @@ export function Navbar() {
               fontFamily: "Montserrat, sans-serif",
               fontWeight: 600,
               fontSize: "15px",
-              color: "#3C416E",
+              color: "#2B2C30",
             }}
           >
             (516) 200-4793
@@ -86,7 +86,7 @@ export function Navbar() {
               fontWeight: 600,
               fontSize: "14px",
               color: "#FFFFFF",
-              backgroundColor: "#FC6A03",
+              backgroundColor: "#38BDF8",
               padding: "16px 21px",
               borderRadius: "8px",
               boxShadow:
@@ -104,7 +104,7 @@ export function Navbar() {
               fontFamily: "Montserrat, sans-serif",
               fontWeight: 600,
               fontSize: "13px",
-              color: "#3C416E",
+              color: "#2B2C30",
             }}
           >
             Login
@@ -114,7 +114,7 @@ export function Navbar() {
           <button
             className="flex items-center justify-center md:hidden"
             aria-label="Open menu"
-            style={{ color: "#3C416E" }}
+            style={{ color: "#2B2C30" }}
           >
             <Menu className="h-6 w-6" />
           </button>

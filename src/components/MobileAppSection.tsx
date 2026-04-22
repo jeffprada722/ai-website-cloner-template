@@ -11,7 +11,7 @@ export function MobileAppSection() {
         <div className="relative w-full lg:w-[400px] flex-shrink-0">
           <Image
             src="/images/graphics/360-app/mobile-app-phone-mockup.webp"
-            alt="Bookkeeper360 mobile app"
+            alt="Bookkeeping and Accounting Consultants mobile app"
             width={300}
             height={600}
             className="mx-auto h-auto"
@@ -36,7 +36,7 @@ export function MobileAppSection() {
                 />
               </svg>
             </div>
-            <span className="text-[12px] font-medium text-[#3C416E] whitespace-nowrap">
+            <span className="text-[12px] font-medium text-[#2B2C30] whitespace-nowrap">
               Your tax return was filed
             </span>
           </div>
@@ -60,7 +60,7 @@ export function MobileAppSection() {
                 />
               </svg>
             </div>
-            <span className="text-[12px] font-medium text-[#3C416E] whitespace-nowrap">
+            <span className="text-[12px] font-medium text-[#2B2C30] whitespace-nowrap">
               Cash Runway
             </span>
           </div>
@@ -75,11 +75,11 @@ export function MobileAppSection() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect x="3" y="2" width="10" height="12" rx="1" stroke="#FC6A03" strokeWidth="1.5" />
-                <path d="M6 6H10M6 9H8" stroke="#FC6A03" strokeWidth="1.5" strokeLinecap="round" />
+                <rect x="3" y="2" width="10" height="12" rx="1" stroke="#38BDF8" strokeWidth="1.5" />
+                <path d="M6 6H10M6 9H8" stroke="#38BDF8" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
             </div>
-            <span className="text-[12px] font-medium text-[#3C416E] whitespace-nowrap">
+            <span className="text-[12px] font-medium text-[#2B2C30] whitespace-nowrap">
               Taxes Filed
             </span>
           </div>
@@ -90,8 +90,8 @@ export function MobileAppSection() {
           <h2
             className="mb-[18px] font-[Montserrat] text-[36px] font-[800] leading-[43.2px]"
           >
-            <span className="text-[#FC6A03]">Bookkeeper360</span>{" "}
-            <span className="text-[#3C416E]">in your back pocket.</span>
+            <span className="text-[#38BDF8]">Bookkeeping and Accounting Consultants</span>{" "}
+            <span className="text-[#2B2C30]">in your back pocket.</span>
           </h2>
 
           <p className="font-[Montserrat] text-[17px] font-medium leading-[30.6px] text-[#767EAD]">

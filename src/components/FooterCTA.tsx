@@ -18,7 +18,7 @@ export function FooterCTA() {
         {/* Right: CTA button */}
         <a
           href="#"
-          className="inline-block rounded-lg bg-[#FC6A03] px-8 py-5 font-[Montserrat] text-[17px] font-semibold text-white shadow-lg transition-opacity hover:opacity-90"
+          className="inline-block rounded-lg bg-[#38BDF8] px-8 py-5 font-[Montserrat] text-[17px] font-semibold text-white shadow-lg transition-opacity hover:opacity-90"
         >
           Free Consultation
         </a>

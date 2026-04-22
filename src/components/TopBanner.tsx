@@ -4,7 +4,7 @@ export function TopBanner() {
       className="fixed top-0 z-10 w-full"
       style={{
         background:
-          "linear-gradient(to right, rgb(45,80,145), rgb(38,151,212), rgb(45,80,145))",
+          "linear-gradient(to right, rgb(43,44,48), rgb(74,94,122), rgb(43,44,48))",
       }}
     >
       <div

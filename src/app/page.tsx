@@ -17,13 +17,12 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
-        <TestimonialsSection />
         <AppIntegrations />
         <OneTeamSection />
         <DedicatedBookkeeperSection />
         <AccurateFinancialsSection />
         <SmarterTechSection />
-        <MobileAppSection />
+        <TestimonialsSection />
       </main>
       <Footer />
     </>

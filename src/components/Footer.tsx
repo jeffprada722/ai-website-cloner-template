@@ -86,7 +86,7 @@ export function Footer() {
         <div className="flex flex-col gap-4">
           <Image
             src="/images/logos/bk360-cloud.svg"
-            alt="Bookkeeper360"
+            alt="Bookkeeping and Accounting Consultants"
             width={40}
             height={40}
             className="h-10 w-10"
@@ -98,10 +98,10 @@ export function Footer() {
             (516) 200-4793
           </a>
           <a
-            href="mailto:sales@bookkeeper360.com"
+            href="mailto:sales@baconsultants.com"
             className="font-[Montserrat] text-[14px] text-white hover:underline"
           >
-            sales@bookkeeper360.com
+            sales@baconsultants.com
           </a>
           <div className="flex items-center gap-2 pt-2">
             <a href="#" aria-label="Get it on Google Play">
@@ -134,7 +134,7 @@ export function Footer() {
       {/* ROW 3: Bottom bar */}
       <div className="mx-auto max-w-[1280px] flex flex-col items-center justify-between gap-4 border-t border-white/20 pt-6 md:flex-row">
         <p className="font-[Montserrat] text-[13px] text-white">
-          &copy; 2012 - 2026 Bookkeeper360
+          &copy; 2012 - 2026 Bookkeeping and Accounting Consultants
         </p>
 
         <div className="flex items-center gap-4">

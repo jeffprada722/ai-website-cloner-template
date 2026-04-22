@@ -10,7 +10,7 @@ export function SmarterTechSection() {
         {/* Text Side (LEFT) */}
         <div className="w-full md:w-1/2">
           <h2
-            className="mb-[18px] font-[Montserrat] text-[28px] font-extrabold leading-tight text-[#3C416E] md:text-[36px]"
+            className="mb-[18px] font-[Montserrat] text-[28px] font-extrabold leading-tight text-[#2B2C30] md:text-[36px]"
           >
             Smarter Tech.
             <br />
@@ -27,7 +27,7 @@ export function SmarterTechSection() {
           </p>
           <Link
             href="#"
-            className="mt-[25px] inline-block rounded-lg bg-[#FC6A03] px-[25px] py-[20px] font-[Montserrat] text-[17px] font-semibold text-white transition-all duration-200 hover:opacity-90"
+            className="mt-[25px] inline-block rounded-lg bg-[#38BDF8] px-[25px] py-[20px] font-[Montserrat] text-[17px] font-semibold text-white transition-all duration-200 hover:opacity-90"
             style={{
               boxShadow:
                 "rgba(50, 50, 93, 0.26) 0px 5px 10px -2px, rgba(0, 0, 0, 0.3) 0px 3px 6px -3px",
@@ -41,7 +41,7 @@ export function SmarterTechSection() {
         <div className="relative w-full md:w-1/2">
           <Image
             src="/images/graphics/360-app/profit-and-loss.png"
-            alt="Bookkeeper360 app profit and loss dashboard"
+            alt="Bookkeeping and Accounting Consultants app profit and loss dashboard"
             width={500}
             height={400}
             className="w-full rounded-xl shadow-lg"
@@ -51,10 +51,10 @@ export function SmarterTechSection() {
           <div
             className="absolute -bottom-4 -left-4 flex items-center gap-2 rounded-lg bg-white px-3 py-2 shadow-md"
           >
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#2697D4] text-[10px] text-white">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#4A5E7A] text-[10px] text-white">
               &#9733;
             </span>
-            <span className="text-xs font-semibold text-[#3C416E]">
+            <span className="text-xs font-semibold text-[#2B2C30]">
               AI Insights Ready
             </span>
           </div>
